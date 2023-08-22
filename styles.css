@@ -84,6 +84,7 @@ a{
     font-size: 18px;
     padding: 6px;
     transition: transform 0.3s;
+    margin-bottom: 10%;
 }
 
 .button1:hover{
@@ -180,3 +181,52 @@ a{
     margin-left: 50%;
 }
 
+/* section 3 */
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 168, 168);
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 60px;
+}
+
+.call{
+    background-color: rgb(153, 31, 31);
+    border: none;
+    border-radius: 30px;
+    padding: 60px;
+    height: 100px;
+    width: 800px;
+    color: rgb(255, 168, 168);
+    margin: 40%;
+}
+
+.title3{
+    font-size: 23px;
+    font-family: 'Righteous', cursive;
+    padding-bottom: 10px;
+}
+
+.come{
+    font-size: 17px;
+    font-family: 'Itim', cursive;
+    padding-bottom: 10px;
+}
+
+.button2{
+    background-color:bisque;
+    color: rgb(155, 1, 1);
+    border: none;
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+    font-size: 17px;
+    padding: 6px;
+    transition: transform 0.3s;
+}
+
+.button2:hover{
+    transform: scale(1.1);
+}

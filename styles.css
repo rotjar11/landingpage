@@ -74,6 +74,7 @@ a{
     color:rgb(255, 154, 154);
     font-family: 'Itim', cursive;
     padding: 9px;
+    padding-bottom: 15px;
 }
 .button1{
     background-color:bisque;

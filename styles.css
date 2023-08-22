@@ -4,6 +4,8 @@ body{
     margin: 0;
 }
 
+/* header part */
+
 .head {
     display: flex;
     flex-direction: row;
@@ -45,4 +47,47 @@ a{
     color:rgb(255, 66, 66);
 }
 
+/* hero part */
+.hero{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(155, 1, 1);
+    padding: 100px 230px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
 
+.img img{
+    max-width: 80%;
+}
+
+
+
+.title1{
+    font-size: 33px;
+    color:rgb(255, 100, 100);
+    font-family: 'Righteous', cursive;
+    padding: 6px;
+}
+
+.tex{
+    font-size: 21px;
+    color:rgb(255, 154, 154);
+    font-family: 'Itim', cursive;
+    padding: 9px;
+}
+.button1{
+    background-color:bisque;
+    color: rgb(155, 1, 1);
+    border: none;
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    padding: 6px;
+    transition: transform 0.3s;
+}
+
+.button1:hover{
+    transform: scale(1.2);
+}

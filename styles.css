@@ -17,7 +17,7 @@ body{
 
 .logo {
     font-size: 45px;
-    color:rgb(255, 66, 66);
+    color: #FA8072;
     font-family: 'Righteous', cursive;
 }
 
@@ -44,7 +44,7 @@ li:hover{
 
 a{
     text-decoration: none;
-    color:rgb(255, 66, 66);
+    color:#FA8072;
 }
 
 /* hero part */
@@ -92,6 +92,8 @@ a{
 
 /*main part*/
 
+/*section 1*/
+
 .main{
     display: flex;
     flex-direction: column;
@@ -103,6 +105,7 @@ a{
     flex-direction: column;
     align-items: center;
     padding: 80px;
+    height: 400px;
 }
 
 .title2{
@@ -146,5 +149,34 @@ a{
 .shades ul li img{
     width: 40%;
     margin-right: 5px;
+}
+
+/* section 2 */
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(153, 31, 31);
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 70px;
+}
+
+.quote{
+    font-size: 32px;
+    color: bisque;
+    font-family: 'Marck Script', cursive;
+    padding: 15px;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.author{
+    font-size: 20px;
+    color: bisque;
+    font-family: 'Itim', cursive;
+    padding: 15px;
+    margin-left: 50%;
 }
 

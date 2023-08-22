@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(155, 1, 1);
+    padding: 20px 230px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 45px;
+    color:rgb(255, 66, 66);
+    font-family: 'Righteous', cursive;
+}
+
+.links{
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    align-items: center;
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+li:hover{
+    transform: scale(1.2);
+}
+
+a{
+    text-decoration: none;
+    color:rgb(255, 66, 66);
+}
+
+
